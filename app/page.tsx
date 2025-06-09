@@ -31,15 +31,7 @@ const ToDelete = () => {
         </h1>
 
         <p>
-          This is <a href="https://github.com/9d8dev/next-wp">next-wp</a>,
-          created as a way to build WordPress sites with Next.js at rapid speed.
-          This starter is designed with{" "}
-          <a href="https://ui.shadcn.com">shadcn/ui</a>,{" "}
-          <a href="https://craft-ds.com">craft-ds</a>, and Tailwind CSS. Use{" "}
-          <a href="https://components.work">brijr/components</a> to build your
-          site with prebuilt components. The data fetching and typesafety is
-          handled in <code>lib/wordpress.ts</code> and{" "}
-          <code>lib/wordpress.d.ts</code>.
+
         </p>
       </Prose>
 

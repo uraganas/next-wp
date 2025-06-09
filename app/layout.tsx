@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { siteConfig } from "@/site.config";
 
 import Balancer from "react-wrap-balancer";
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/samsonas.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -74,13 +74,12 @@ const Nav = ({ className, children, id }: NavProps) => {
         >
           <Image
             src={Logo}
-            alt="Logo"
+            alt="Samsonas Logo"
             loading="eager"
             className="dark:invert"
-            width={42}
-            height={26.44}
+            width={160}
+            height={80.0}
           ></Image>
-          <h2 className="text-sm">{siteConfig.site_name}</h2>
         </Link>
         {children}
         <div className="flex items-center gap-2">
@@ -115,8 +114,8 @@ const Footer = () => {
                 src={Logo}
                 alt="Logo"
                 className="dark:invert"
-                width={42}
-                height={26.44}
+                width={190}
+                height={85.0}
               ></Image>
             </Link>
             <p>
@@ -136,7 +135,7 @@ const Footer = () => {
             ))}
           </div>
           <div className="flex flex-col gap-2 text-sm">
-            <h5 className="font-medium text-base">Blog</h5>
+            <h5 className="font-medium text-base">News</h5>
             {Object.entries(contentMenu).map(([key, href]) => (
               <Link
                 className="hover:underline underline-offset-4"
@@ -151,7 +150,7 @@ const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            &copy; <a href="https://9d8.dev">9d8</a>. All rights reserved.
+            &copy; <a href="samsonas.com">Samsonas Motorsport</a>. All rights reserved.
             2025-present.
           </p>
         </Container>
